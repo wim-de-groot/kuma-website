@@ -1,5 +1,9 @@
 .DS_Store
 node_modules
 .idea
-docs/.vuepress/dist
+.nova
 yarn-error.log
+
+# project-specific
+docs/.vuepress/dist
+docs/.vuepress/public/latest_version.html

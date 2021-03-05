@@ -10,6 +10,6 @@ title: Overview
 
 Welcome to the official documentation for Kuma, the **Universal Control Plane**. 
 
-Here you will find all you need to know about the product. While Kuma is ideal for Service Mesh and Microservices, you will soon realize that it can be used to modernize any architecture.
+Here you will find all you need to know about the product. Kuma is ideal for Service Mesh and Microservices, but you will soon realize that it can be used to modernize any architecture.
 
 The word "Kuma" means "bear" in Japanese (クマ).

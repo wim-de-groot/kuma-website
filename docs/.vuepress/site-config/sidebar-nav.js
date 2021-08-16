@@ -1576,4 +1576,136 @@ module.exports = {
       ]
     }
   ],
+  "/docs/1.4.0/": [
+    {
+      title: "Introduction",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "introduction/overview",
+        "introduction/service-mesh",
+        "introduction/architecture",
+      ]
+    },
+    {
+      title: "Install",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "installation/kubernetes",
+        "installation/helm",
+        "installation/openshift",
+        "installation/docker",
+        "installation/amazonlinux",
+        "installation/ecs",
+        "installation/redhat",
+        "installation/centos",
+        "installation/debian",
+        "installation/ubuntu",
+        "installation/macos",
+      ]
+    },
+    {
+      title: "Get started",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "get-started/simple-demo",
+        "get-started/build-standalone",
+        "get-started/components",
+        "get-started/basic-security",
+        "get-started/tools",
+      ]
+    },
+    {
+      title: "Configure",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "configure/introduction",
+        "configure/control-plane",
+        "configure/dateplane-proxy",
+        "configure/security",
+        "configure/policies",
+      ]
+    },
+    {
+      title: "Upgrade",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "upgrade/kuma",
+        "upgrade/components",
+      ]
+    },
+    {
+      title: "Get to production",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "production/topology",
+        "production/test-deploy",
+        "production/prod-deploy",
+      ]
+    },
+    {
+      title: "Concepts",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "concepts/architecture",
+        "concepts/control-plane",
+        "concepts/dataplane-proxy",
+        "concepts/security",
+        "concepts/networking",
+        "concepts/multizone",
+      ]
+    },
+    {
+      title: "Reference",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "reference/http-api",
+        "reference/kubernetes-annotations",
+        "reference/policies",
+      ]
+    },
+    {
+      title: "Policies",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "policies/circuit-breaker",
+        "policies/fault-injection",
+        "policies/health-check",
+        "policies/rate-limit",
+        "policies/retry",
+        "policies/timeout",
+        "policies/traffic-log",
+        "policies/traffic-metrics",        
+        "policies/traffic-permissions",
+        "policies/traffic-route",
+      ]
+    },
+    {
+      title: "Advanced",
+      collapsable: true,
+      sidebarDepth: sidebarDepth,
+      path: "",
+      children: [
+        "advanced/envoy-api",
+        "advanced-proxy-template",
+      ]
+    },
+  ],
 }

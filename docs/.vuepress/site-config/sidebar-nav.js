@@ -1628,19 +1628,9 @@ module.exports = {
       children: [
         "configure/introduction",
         "configure/control-plane",
-        "configure/dateplane-proxy",
+        "configure/dataplane-proxy",
         "configure/security",
         "configure/policies",
-      ]
-    },
-    {
-      title: "Upgrade",
-      collapsable: true,
-      sidebarDepth: sidebarDepth,
-      path: "",
-      children: [
-        "upgrade/kuma",
-        "upgrade/components",
       ]
     },
     {

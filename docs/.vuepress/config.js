@@ -26,6 +26,7 @@ const sidebarNav = require("./site-config/sidebar-nav");
  * Install methods route builder
  */
 const releaseArray = require("./site-config/install-route-builder");
+const { off } = require("process");
 
 /**
  * Site Configuration
@@ -47,6 +48,9 @@ module.exports = {
     slackChannel: productData.slackChannelURL,
     docsDir: "docs",
     editLinks: false,
+    nextLinks: false,
+    prevLinks: false,
+    lastUpdated: false,
     sidebarDepth: 0,
     search: true,
     searchMaxSuggestions: 10,

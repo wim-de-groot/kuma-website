@@ -1,5 +1,7 @@
 # CentOS
 
+TODO EDIT PER NEW CONTENT AND STRUCTURE
+
 To install and run Kuma on CentOS (**x86_64**) execute the following steps:
 
 * [1. Download Kuma](#_1-download-kuma)

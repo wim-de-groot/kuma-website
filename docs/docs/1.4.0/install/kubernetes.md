@@ -1,5 +1,7 @@
 # Kubernetes
 
+TODO EDIT PER NEW CONTENT AND STRUCTURE
+
 To install and run Kuma on Kubernetes execute the following steps:
 
 * [1. Download Kuma](#_1-download-kuma)

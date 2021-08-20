@@ -1,3 +1,3 @@
-# Kuma architecture
+# Kuma architecture highlights
 
 Content TK

@@ -14,5 +14,4 @@ The word "Kuma" means "bear" in Japanese (クマ).
 
 The core maintainer of Kuma is **Kong**, the maker of the popular open-source Kong Gateway 🦍.
 
-## Get started
 

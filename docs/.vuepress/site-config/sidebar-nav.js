@@ -1589,22 +1589,13 @@ module.exports = {
       ]
     },
     {
-      title: "Install",
+      title: "Install and run",
       collapsable: true,
       sidebarDepth: sidebarDepth,
       path: "",
       children: [
-        "installation/kubernetes",
-        "installation/helm",
-        "installation/openshift",
-        "installation/docker",
-        "installation/amazonlinux",
-        "installation/ecs",
-        "installation/redhat",
-        "installation/centos",
-        "installation/debian",
-        "installation/ubuntu",
-        "installation/macos",
+        "install/kubernetes",
+        "install/centos",
       ]
     },
     {
@@ -1690,8 +1681,9 @@ module.exports = {
       sidebarDepth: sidebarDepth,
       path: "",
       children: [
+        "advanced/fine-tuning",
         "advanced/envoy-api",
-        "advanced-proxy-template",
+        "advanced/proxy-template",
       ]
     },
   ],

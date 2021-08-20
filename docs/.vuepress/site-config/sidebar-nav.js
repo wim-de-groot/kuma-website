@@ -1631,6 +1631,21 @@ module.exports = {
         "configure/dataplane-proxy",
         "configure/security",
         "configure/policies",
+        {
+        title: "Policies", 
+        children: [
+          "policies/circuit-breaker",
+          "policies/fault-injection",
+          "policies/health-check",
+          "policies/rate-limit",
+          "policies/retry",
+          "policies/timeout",
+          "policies/traffic-log",
+          "policies/traffic-metrics",        
+          "policies/traffic-permissions",
+          "policies/traffic-route",
+        ],
+      }
       ]
     },
     {
@@ -1667,24 +1682,6 @@ module.exports = {
         "reference/http-api",
         "reference/kubernetes-annotations",
         "reference/policies",
-      ]
-    },
-    {
-      title: "Policies",
-      collapsable: true,
-      sidebarDepth: sidebarDepth,
-      path: "",
-      children: [
-        "policies/circuit-breaker",
-        "policies/fault-injection",
-        "policies/health-check",
-        "policies/rate-limit",
-        "policies/retry",
-        "policies/timeout",
-        "policies/traffic-log",
-        "policies/traffic-metrics",        
-        "policies/traffic-permissions",
-        "policies/traffic-route",
       ]
     },
     {
